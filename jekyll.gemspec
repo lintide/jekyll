@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.5'
 
   s.name              = 'jekyll'
-  s.version           = '0.11.2'
+  s.version           = '0.11.3'
   s.date              = '2011-12-27'
   s.rubyforge_project = 'jekyll'
 
@@ -90,6 +90,7 @@ Gem::Specification.new do |s|
     lib/jekyll/static_file.rb
     lib/jekyll/tags/highlight.rb
     lib/jekyll/tags/include.rb
+    lib/jekyll/tags/post_url.rb
     test/helper.rb
     test/source/.htaccess
     test/source/_includes/sig.markdown
